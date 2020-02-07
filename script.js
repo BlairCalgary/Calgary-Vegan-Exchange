@@ -4,7 +4,6 @@ const container = document.getElementById('cardContainer');
 
 vegans.forEach((result, id) => {
     // create the card element
-    const card = document.createElement('div');
     result.image === undefined || result.image === "" ? result.image = "img/default.jpg" : result.image; 
     //build the card content
     const content = `
