@@ -8,8 +8,12 @@ vegans.forEach((result, id) => {
     //build the card content
     const content = `
         <div class='card'>
-            <h2>${result.name}</h2>
-            <img class="cardImg" src=${result.image} height = 150 width = 150>
+             <h2>${result.name}</h2>
+
+            <img class="cardImg" src=${result.image}>
+
+            <img class="cardImg" src=${result.image}>
+
             <p>${result.contact}<p>
         </div>
     `;
