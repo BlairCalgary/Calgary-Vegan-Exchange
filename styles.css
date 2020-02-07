@@ -86,10 +86,10 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     height: 300px;
     width: 300px;
-    /* padding: 1em; */
+    padding: 1em;
     border: 2px solid #000000;
     border-radius: 5%;
     box-shadow: 5px 5px 5px #00000059;
@@ -97,7 +97,11 @@ h1 {
     /* background: linear-gradient(to top, rgb(0, 124, 0) -25%, rgb(0, 185, 0)); */
     margin: 1em;
     transition: all .2s ease-in-out;
-    }
+}
+
+.push {
+    margin-top: auto;
+}
 
 .card:hover {
     transform: scale(1.02) rotate(.5deg);
@@ -116,14 +120,12 @@ h1 {
     max-width: 180px;
     max-height: 180px;
     background: white;
-    margin: 1rem;
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 5px 5px 5px #00000059;
     background: white;
     width: auto;
     height: auto;
-    max-width: 180px;
-    max-height: 180px;
-
+    max-width: 250px;
+    max-height: 200px;
 }
