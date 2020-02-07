@@ -7,7 +7,7 @@ const vegans = [
     {
         name: "Darth Vader",
         contact: "@ImperialLeader",
-        image: "img/darthvader.png"
+        image: "img/darthvader.PNG"
     },
     {
         name: "Donald Duck",
@@ -17,7 +17,7 @@ const vegans = [
     {
         name: "Slash",
         contact: "@SlashGNR",
-        image: "img/slash.png"
+        image: "img/slash.PNG"
     },
     {
         name: "Jon Snow",
@@ -34,7 +34,7 @@ const vegans = [
     {
         name: "Slash",
         contact: "@SlashGNR",
-        image: "img/slash.png"
+        image: "img/slash.PNG"
     },
     {
         name: "Jon Snow",
