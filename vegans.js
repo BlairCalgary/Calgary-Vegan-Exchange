@@ -5,19 +5,19 @@ const vegans = [
         image: "img/Going-Nuts.png"
     },
     {
-        name: "Darth Vader",
+        name: "Grinning Goat",
         contact: "@ImperialLeader",
-        image: "img/darthvader.PNG"
+        image: "img/Grinning-Goat.jpg"
     },
     {
-        name: "Donald Duck",
+        name: "Lakeview Bakery",
         contact: "www.DonaldDuck.com",
-        image: "img/donaldduck.png"
+        image: "img/Lakeview-Bakery.jpg"
     },
     {
-        name: "Slash",
+        name: "Soy Milk and Vinegar",
         contact: "@SlashGNR",
-        image: "img/slash.PNG"
+        image: "img/Soy-Milk-And-Vinegar.PNG"
     },
     {
         name: "Jon Snow",
@@ -29,7 +29,7 @@ const vegans = [
     },
     {
         name: "Donald Duck",
-        contact: "www.DonaldDuck.com"
+        contact: `<a href="http://www.DonaldDuck.com" target="_blank">www.DonaldDuck.com</a>`
     },
     {
         name: "Slash",
