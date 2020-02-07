@@ -1,8 +1,8 @@
 const vegans = [
     {
-        name: "Jon Snow",
+        name: "Going Nuts",
         contact: "@JonSnow",
-        image: "img/jonsnow.png"
+        image: "img/Going-Nuts.png"
     },
     {
         name: "Darth Vader",
