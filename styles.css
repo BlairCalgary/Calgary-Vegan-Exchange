@@ -144,7 +144,7 @@ body {
 
 .gMap:hover {
     height: 50vh;
-    /* transform: translateY(-20vh) */
+    transform: translateY(-20vh);
 }
 
 #iframeMap {
