@@ -28,42 +28,12 @@ body {
     position: sticky;
     height: 80px;
     z-index: 2;
-    background: linear-gradient(#FACB4C, #DED6BF 70%, #FFBA00 110%);
+    background: url('img/bg-card.jpg') center;
     /* background: linear-gradient(#AA6F39, #D0A57D 70%, #AA6F39 110%); */
     border-bottom: 2px solid #070D48;
     border-bottom: 2px solid #000000;
     box-shadow: 0px 5px 5px #00000050;
     top: 0;
-}
-
-
-@media screen and (max-width: 900px) {
-    .title {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .title {
-        font-size: 1.5rem;
-    }
-}
-  
-@media screen and (max-width: 450px) {
-    .card {
-        display: flex;
-        justify-content: center;
-        font-size: 0.6rem;
-        max-height: 135px;
-        max-width: 135px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    img.cardImg {
-        max-width: 45%;
-        max-height: 45%;
-    }
 }
 
 .left, .right {
@@ -95,13 +65,15 @@ body {
     width: 300px;
     padding: 1em;
     border: 2px solid #070D48;
-    /* border: 2px solid #000000; */
     border-radius: 5%;
     box-shadow: 5px 5px 5px #00000059;
     background: url('img/bg-card.jpg') center;
-    /* background: linear-gradient(to top, rgb(0, 124, 0) -25%, rgb(0, 185, 0)); */
     margin: 1em;
     transition: all .2s ease-in-out;
+}
+
+p.push {
+    font-size: 1.2rem;
 }
 
 .push {
@@ -120,11 +92,6 @@ body {
 }
 
 .cardImg {
-    height: auto;
-    width: auto;
-    max-width: 180px;
-    max-height: 180px;
-    background: white;
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 5px 5px 5px #00000059;
@@ -158,3 +125,33 @@ body {
     margin-top: 0px;
 }
 
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+  
+@media screen and (max-width: 450px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        font-size: 0.5rem;
+        max-height: 138px;
+        max-width: 138px;
+    }
+    img.cardImg {
+        width: 75px;
+        max-width: 50%;
+        max-height: 50%;
+        display: block;
+    }
+    p.push {
+        font-size: .6rem;
+    }    
+}
