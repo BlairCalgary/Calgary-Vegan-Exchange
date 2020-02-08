@@ -11,7 +11,7 @@ vegans.forEach((result, id) => {
     const content = `
         <div class='card' ${contactvar}>
             <h3>${result.name}</h3>
-            <img class="cardImg push" src=${result.image}>
+            <img class="cardImg" src=${result.image}>
             <p class="push">${result.contact}</p>
         </div>
     `;
