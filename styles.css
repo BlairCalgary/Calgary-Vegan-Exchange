@@ -38,13 +38,13 @@ body {
 
 
 @media screen and (max-width: 900px) {
-    h1 {
+    .title {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    h1 {
+    .title {
         font-size: 1.5rem;
     }
 }
@@ -144,7 +144,7 @@ body {
 
 .gMap:hover {
     height: 50vh;
-    transform: translateY(-20vh)
+    /* transform: translateY(-20vh) */
 }
 
 #iframeMap {
