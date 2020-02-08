@@ -1,8 +1,23 @@
 import vegans from './vegans.js';
 
+var newVegans = Array.from(vegans);
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+    return array;
+}
+newVegans = shuffle(newVegans);
+
 const container = document.getElementById('cardContainer');
 
-vegans.forEach((result, id) => {
+newVegans.forEach((result, id) => {
     // create the card element
     result.image === undefined || result.image === "" ? result.image = "img/vegan-logo.png" : result.image; 
     var contactvar = ""
