@@ -11,8 +11,13 @@
 }
 
 body {
-    background: linear-gradient(80deg, #00480D, rgb(37, 138, 53) 80%);
+    background: linear-gradient(80deg, #0D1DB7,#357E9E 80%);
+    /* background: linear-gradient(80deg, #00480D, rgb(37, 138, 53) 80%); */
     font-family: 'Samsung Sans Regular';
+}
+
+.title {
+    font-size: 3rem;
 }
 
 .header {
@@ -23,7 +28,9 @@ body {
     position: sticky;
     height: 80px;
     z-index: 2;
-    background: linear-gradient(#AA6F39, #D0A57D 70%, #AA6F39 110%);
+    background: linear-gradient(#FACB4C, #DED6BF 70%, #FFBA00 110%);
+    /* background: linear-gradient(#AA6F39, #D0A57D 70%, #AA6F39 110%); */
+    border-bottom: 2px solid #070D48;
     border-bottom: 2px solid #000000;
     box-shadow: 0px 5px 5px #00000050;
     top: 0;
@@ -64,7 +71,8 @@ h1.title {
     height: 300px;
     width: 300px;
     padding: 1em;
-    border: 2px solid #000000;
+    border: 2px solid #070D48;
+    /* border: 2px solid #000000; */
     border-radius: 5%;
     box-shadow: 5px 5px 5px #00000059;
     background: url('img/bg-card.jpg') center;
@@ -129,5 +137,27 @@ p.push {
     p.push {
         font-size: 0.6rem;
     }
+=======
+.gMap {
+    width: 100%;
+    overflow: hidden;
+    height: 30vh;
+    transition: 1s;
+}
+
+.gMap:hover {
+    height: 50vh;
+    transform: translateY(-20vh);
+}
+
+#iframeMap {
+    border:0;
+    margin-top: -50px;
+    transition: 1s;
+}
+
+#iframeMap:hover {
+    border:0;
+    margin-top: 0px;
 }
 
